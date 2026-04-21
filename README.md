@@ -1,4 +1,5 @@
-# 23020770-Tung
+23020770-Tung
+
 ROS GIUA KI
 # my_robot
 
@@ -102,6 +103,15 @@ Luu y:
 - Tay may hien khoi tao o vi tri giua hanh trinh de de quan sat chuyen dong hon.
 
 ## Topic chinh
+
+- `/cmd_vel`: lenh `geometry_msgs/msg/Twist` cho de robot.
+- `/wheel_1_cmd`, `/wheel_2_cmd`, `/wheel_3_cmd`: lenh toc do banh sau khi doi dong hoc.
+- `/arm_dung_cmd`, `/arm_ngang_cmd`: lenh vi tri 2 khop tay may.
+- `/scan`: du lieu lidar.
+- `/imu`: du lieu IMU.
+- `/imu_pose`: huong IMU da doi sang `geometry_msgs/msg/PoseStamped` de RViz hien thi.
+- `/joint_states`: trang thai khop.
+- `/odom`: odometry tu Gazebo.
 
 - `/cmd_vel`: lenh `geometry_msgs/msg/Twist` cho de robot.
 - `/wheel_1_cmd`, `/wheel_2_cmd`, `/wheel_3_cmd`: lenh toc do banh sau khi doi dong hoc.
