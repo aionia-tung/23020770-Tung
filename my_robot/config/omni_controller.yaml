@@ -1,0 +1,9 @@
+omni_controller:
+  ros__parameters:
+    wheel_radius: 0.038
+    wheel_base: 0.1315
+    command_timeout: 1.0
+    wheel_angles_deg: [90.0, 210.0, 330.0]
+    wheel_signs: [1.0, 1.0, 1.0]
+    max_wheel_speed: 8.0
+    max_wheel_accel: 12.0

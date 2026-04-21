@@ -1,0 +1,2 @@
+# Khong can them goi pip nao.
+# Cac phu thuoc chinh duoc cai bang apt theo huong dan trong README.md.
